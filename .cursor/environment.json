@@ -1,0 +1,14 @@
+{
+  "name": "YardSale static site",
+  "install": "echo 'Static HTML/CSS/JS site - no dependencies to install'",
+  "terminals": [
+    {
+      "name": "web",
+      "command": "python3 -m http.server 3000",
+      "description": "Serves the static YardSale site at http://localhost:3000"
+    }
+  ],
+  "ports": [
+    { "name": "web", "port": 3000 }
+  ]
+}
